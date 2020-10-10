@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gc/CLionProjects/RosalindPP/src/libgenerators/DNAGenerator.cpp
+random
+-
+DNAGenerator.h
+/home/gc/CLionProjects/RosalindPP/src/libgenerators/DNAGenerator.h
+
+/home/gc/CLionProjects/RosalindPP/src/libgenerators/DNAGenerator.h
+string
+-
+
+/home/gc/CLionProjects/RosalindPP/src/validators/DNAValidator.cpp
+DNAValidator.h
+/home/gc/CLionProjects/RosalindPP/src/validators/DNAValidator.h
+
+/home/gc/CLionProjects/RosalindPP/src/validators/DNAValidator.h
+

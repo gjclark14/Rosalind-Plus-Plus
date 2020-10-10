@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibgenerators.a  CMakeFiles/libgenerators.dir/libgenerators/DNAGenerator.cpp.o CMakeFiles/libgenerators.dir/validators/DNAValidator.cpp.o
+/usr/bin/ranlib liblibgenerators.a

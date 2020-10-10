@@ -1,0 +1,13 @@
+//
+// Created by gc on 10/10/20.
+//
+
+#include <iostream>
+#include "DNAValidator.h"
+#include "../libcalculators/DNACalculator.h"
+
+bool DNAValidator::output_is_correct(std::string generated_string, std::string output) {
+    DNACalculator calculator;
+
+
+}
