@@ -6,8 +6,10 @@
 #define ROSALINDPP_RNAVALIDATOR_H
 
 
-class RNAValidator {
+#include <string>
 
+namespace RNAValidator {
+    bool validate(const std::string &input, const std::string &output);
 };
 
 

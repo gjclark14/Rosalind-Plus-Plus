@@ -6,8 +6,10 @@
 #define ROSALINDPP_RNACALCULATOR_H
 
 
-class RNACalculator {
+#include <string>
 
+namespace RNACalculator {
+    std::string calculate(const std::string &input);
 };
 
 

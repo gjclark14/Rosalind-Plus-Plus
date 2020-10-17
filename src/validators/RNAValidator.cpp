@@ -3,3 +3,7 @@
 //
 
 #include "RNAValidator.h"
+
+bool RNAValidator::validate(const std::string &input, const std::string &output) {
+    return input == output;
+}
