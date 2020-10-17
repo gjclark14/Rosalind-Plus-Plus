@@ -6,8 +6,6 @@
 #include "DNAValidator.h"
 #include "../libcalculators/DNACalculator.h"
 
-bool DNAValidator::output_is_correct(std::string generated_string, std::string output) {
-    DNACalculator calculator;
-
-
+bool DNAValidator::validate(std::string generated_string, std::string output) {
+    return generated_string == output;
 }

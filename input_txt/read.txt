@@ -1,0 +1,1 @@
+All input files will be named rosalind_ID where ID matches the id from Rosalind

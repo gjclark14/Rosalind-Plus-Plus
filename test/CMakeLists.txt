@@ -36,6 +36,6 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
 endif()
 
 
-add_executable(run_tests libgenerators_tests/generate_DNA.cpp run_tests.cpp)
-target_link_libraries(run_tests libgenerators gtest)
+add_executable(run_tests run_tests.cpp libgenerators_tests/DNAGeneratorTest.cpp validators_tests/DNAValidatorTest.cpp)
+target_link_libraries(run_tests libgenerators libcalculators validators gtest)
 add_test(NAME run_tests COMMAND run_tests)

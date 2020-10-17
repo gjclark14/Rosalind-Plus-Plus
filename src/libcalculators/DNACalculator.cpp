@@ -2,6 +2,7 @@
 // Created by gc on 10/10/20.
 //
 
+#include <sstream>
 #include "DNACalculator.h"
 
 int DNACalculator::count(const char &symbol, const std::string &string_to_count_from) {
@@ -18,6 +19,7 @@ std::string DNACalculator::calculate(const std::string &string_to_count_from) {
     int c_count = 0;
     int g_count = 0;
     int t_count = 0;
+
     for(const char c : string_to_count_from) {
         switch (c) {
             case 'A':
@@ -35,8 +37,12 @@ std::string DNACalculator::calculate(const std::string &string_to_count_from) {
         }
     }
 
-    return std::to_string(a_count) + " " + std::to_string(c_count) + " "
-    + std::to_string(g_count) + " " + std::to_string(t_count);
+    std::ostringstream ss;
+
+    ss << std::to_string(a_count) << " " << std::to_string(c_count) << " "
+    << std::to_string(g_count) << " " << std::to_string(t_count);
+
+    return ss.str();
 }
 
 
