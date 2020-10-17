@@ -8,17 +8,15 @@
 
 #include <string>
 
-class DNAGenerator {
-private:
+namespace DNAGenerator {
     // Generated string will have MIN <= size <= MAX
     static const int MAX = 1000;
     static const int MIN = 750;
 
-public:
-    static std::string generate_DNA();
+    std::string generate_DNA();
 
-    static int get_MAX();
-    static int get_MIN();
+    int get_MAX();
+    int get_MIN();
 
 };
 

@@ -8,11 +8,9 @@
 
 #include <string>
 
-class DNACalculator {
-private:
+namespace DNACalculator {
 
-public:
-    static int count(const char &symbol, const std::string &string_to_count_from);
+    int count(const char &symbol, const std::string &string_to_count_from);
 
     std::string calculate(const std::string &string_to_count_from);
 

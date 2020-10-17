@@ -8,11 +8,8 @@
 
 #include <string>
 
-class DNAValidator {
-private:
-public:
-    static bool output_is_correct(std::string generated_string, std::string output);
-
+namespace DNAValidator {
+    bool validate(std::string generated_string, std::string output);
 };
 
 
