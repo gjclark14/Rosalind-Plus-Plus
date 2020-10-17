@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/unit_tests.dir/input_generators/generate_DNA.cpp.o  -o unit_tests  ../lib/libgtest_maind.a ../lib/libgtestd.a -lpthread 

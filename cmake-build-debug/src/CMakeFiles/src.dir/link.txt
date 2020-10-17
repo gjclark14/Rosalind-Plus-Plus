@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/src.dir/main.cpp.o CMakeFiles/src.dir/libcalculators/DNA.cpp.o CMakeFiles/src.dir/libgenerators/DNAGenerator.cpp.o  -o src 
