@@ -5,15 +5,16 @@
 #include "iostream"
 
 #include "gtest/gtest.h"
-#include "../../src/libgenerators/DNAGenerator.h"
+#include "../../src/libgenerators/RNAGenerator.h"
 
 bool contains_only_nucleotides(const std::string &dna);
 
-TEST(DNA_Generator, generate_DNA) {
-    std::string dna_string = DNAGenerator::generate_DNA();
+//
+TEST(RNA_Generator, generate_RNA) {
+    std::string dna_string = RNAGenerator::generate_RNA();
     const int SIZE = dna_string.size();
-    ASSERT_TRUE(SIZE >= DNAGenerator::get_MIN());
-    ASSERT_TRUE(SIZE <= DNAGenerator::get_MAX());
+    ASSERT_TRUE(SIZE >= RNAGenerator::get_MIN());
+    ASSERT_TRUE(SIZE <= RNAGenerator::get_MAX());
     ASSERT_TRUE(contains_only_nucleotides(dna_string));
 
 }
