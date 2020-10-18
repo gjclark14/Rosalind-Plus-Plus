@@ -39,6 +39,6 @@ endif()
 add_executable(run_tests run_tests.cpp libgenerators_tests/DNAGeneratorTest.cpp
         validators_tests/DNAValidatorTest.cpp
         libgenerators_tests/DNAGeneratorTest.cpp
-        validators_tests/RNAValidatorTest.cpp)
+        validators_tests/RNAValidatorTest.cpp validators_tests/REVCValidatorTest.cpp libgenerators_tests/REVCGeneratorTest.cpp)
 target_link_libraries(run_tests libgenerators libcalculators validators gtest)
 add_test(NAME run_tests COMMAND run_tests)
